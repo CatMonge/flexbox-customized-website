@@ -109,13 +109,15 @@ body {
 }
 .wrapper {
   /* set the display to flex and use the justify-content & align-items properties to center all child elements on the page */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
   margin: 0;
   height: 100%;
   width: 100%;
-  display: flex;
-  justify-content: left;
-  align-items: center;
 }
+/***
 .container {
   display: flex;
   justify-content: space-between;
@@ -124,7 +126,8 @@ body {
   height: 100%;
   width: 100%;
 }
-#content {
+***/
+#div-2 {
   /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
   display: flex;
   justify-content: center;
@@ -142,7 +145,7 @@ body {
   height: 300px;
   border: 1px solid black;
 }
-#job {
+#div-1 {
   /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
   display: flex;
   justify-content: center;
